@@ -1,0 +1,21 @@
+#summary Overview of the Zotonic Category tree
+
+
+ * text
+  * article
+   * news
+ * Location
+  * Website
+ * Person
+ * Event
+ * Artifact
+ * Media
+  * Image
+  * Video
+  * Sound
+  * Document
+ * Collection
+ * Meta
+  * Cateogry
+  * Predicate
+  * User group
