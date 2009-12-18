@@ -1,5 +1,5 @@
+#summary Issues with running Zotonic on windows.
 #labels Phase-Implementation
-WindowsIssues#summary Issues with running Zotonic on windows.
 
 Fixed issues:
  * No "file" command on windows; used internal extension-to-mime.
