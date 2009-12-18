@@ -1,0 +1,17 @@
+#labels Phase-Implementation
+WindowsIssues#summary Issues with running Zotonic on windows.
+
+Fixed issues:
+ * No "file" command on windows; used internal extension-to-mime.
+ * Escaping of filenames and command options was different on unix and windows.
+
+Open issues:
+ * Conversion of path names in commands and templates; it still complains sometimes over missing files.
+ * Dates before 1970 go wrong in erlang:localtime_to_universaltime
+
+
+Installation requirements:
+ * Erlang (tested with R13B03)
+ * Postgresql (tested with 8.4)
+ * OpenSSL installer + VC2008 redist
+ * Imagemagick
